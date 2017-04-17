@@ -57,6 +57,10 @@ for(i in 1:7){
   Y3_S[,2] <- S3_eive[2,i] * data3[,2]
 }
 plot(y=Y3_S[,1],x=Y3_S[,2],xlab=expression(hat(y2)),ylab=expression(hat(y1)))
+plot(y=Y3_S[1:32,1],x=Y3_S[1:32,2],xlab=expression(hat(y2)),ylab=expression(hat(y1)))
+plot(y=Y3_S[33:49,1],x=Y3_S[33:49,2],xlab=expression(hat(y2)),ylab=expression(hat(y1)))
+plot(y=Y3_S[50:76,1],x=Y3_S[50:76,2],xlab=expression(hat(y2)),ylab=expression(hat(y1)))
+## Can not distinguish these three breeds.
 ## There are 3 outliers lie in lower right of the plot.
 
 #3-e(S)
@@ -89,6 +93,10 @@ for(i in 1:7){
   Y3_R[,2] <- R3_eive[2,i] * data3[,2]
 }
 plot(y=Y3_R[,1],x=Y3_R[,2],xlab=expression(hat(y2)),ylab=expression(hat(y1)))
+plot(y=Y3_R[1:32,1],x=Y3_R[1:32,2],xlab=expression(hat(y2)),ylab=expression(hat(y1)))
+plot(y=Y3_R[33:49,1],x=Y3_R[33:49,2],xlab=expression(hat(y2)),ylab=expression(hat(y1)))
+plot(y=Y3_R[50:76,1],x=Y3_R[50:76,2],xlab=expression(hat(y2)),ylab=expression(hat(y1)))
+## Can not distinguish these three breeds.
 ## There are 3 outliers lie in upper left of the plot.
 
 #3-e(R)
